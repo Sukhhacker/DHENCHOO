@@ -1,0 +1,9 @@
+# DHENCHOOO dependencies
+# Install with: pip install -r requirements.txt
+
+torch>=2.0.0          # Core tensor ops + autograd (the model framework)
+requests>=2.28.0      # GitHub API calls
+
+# Optional but recommended:
+# accelerate>=0.20.0  # For multi-GPU / mixed-precision training
+# tqdm>=4.65.0        # Progress bars during training
